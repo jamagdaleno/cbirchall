@@ -1,0 +1,91 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    height: 100%;
+    font-family: 'Yantramanav', sans-serif;
+}
+
+nav {
+    background-color: #ececec;
+    padding: 20px 0px;
+    border-bottom: 1px solid #c2c2c2;
+}
+
+nav a {
+    font-weight: 700;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #272727;
+    padding: 0px 20px;
+}
+
+nav a:hover {
+    color: #2bb673;
+}
+
+a.active {
+    color: #2bb673;
+}
+
+header {
+    margin-bottom: 50px;
+}
+
+header h1, header p {
+    margin: 0;
+    text-align: center;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 60px;
+    padding-top: 30px;
+}
+
+aside {
+    float: left;
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+aside img {
+    display: block;
+    margin: 0 auto;
+}
+
+aside figcaption {
+    text-align: center;
+}
+
+section {
+    padding: 0% 10%;
+}
+
+span.general-overview {
+    font-weight: 500;
+    font-size: 24px;
+}
+
+span.overview-question {
+    font-size: 36px;
+    color: #2bb673;
+}
+
+section p.content-copy {
+    font-size: 24px;
+    line-height: 1.5;
+    font-weight: 300;
+}
+
+footer {
+    clear: left;
+    background-color: #ececec;
+}
+
+p.footer-info {
+    text-align: center;
+    margin: 0px;
+    padding: 20px;
+    bottom: 0;
+    height: 100%;
+}
