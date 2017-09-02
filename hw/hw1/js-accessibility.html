@@ -1,44 +1,80 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8" />
-    <title>Web Accessibility JavaScript</title>
+    <title>Web Accessibility</title>
     <link href="css/styles.css" rel="stylesheet" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Yantramanav:300,400,700" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Yantramanav:300,400,700" rel="stylesheet">
 </head>
 
 <body>
+
+
+    <header>
+        <h1>Web Accessibility</h1>
+    </header>
+
     <nav>
         <a href="index.html">Home</a>
         <a href="html-accessibility.html">HTML</a>
         <a href="css-accessibility.html">CSS</a>
         <a href="js-accessibility.html" class="active">JavaScript</a>
     </nav>
-    
+
     <main>
-        <header>
-            <h1>JavaScript for Accessibility</h1>
-            <p><em>How to use JS effectively for web accessibility</em></p>
-        </header>
-        
-        <aside>
-            <img src="img/web-accessibility-icons.png" alt="image of four web accessibility icons">
-            <figcaption>image source: <a href="http://blog.amdeellc.com/my-journey-into-web-accessibility" target="_blank">amdee blog</a></figcaption>
-        </aside>
-        
-        <section>
-            <h2><span class="general-overview">General Overview</span><br /><span class="overview-question">what do you mean, web accessibility?</span></h2>
-            <p class="content-copy">Est voluptatem inventore voluptatem qui et non. Reprehenderit architecto dicta minima id cumque tempora. Unde molestiae adipisci voluptas rerum sit cupiditate vel qui.</p>
-            <p class="content-copy">Officia est in molestias maiores ea. Aliquid quia dolor repellat accusamus. Vel laudantium rerum quasi. Est et et iure nam vel similique voluptatibus voluptates.</p>
+
+        <section class="pageOverview">
+            <h2>JavaScript for accessibility</h2>
+            <p>There are a couple of ways to add usability and accessibility to your webpages using JavaScript. Read below for some great tips.</p>
         </section>
+
+
+        <div class="textContainer">
+            <section class="stepsContent">
+                <h2>Step 1. Don’t overuse it</h2>
+                <p>JavaScript is a wonderfully powerful programming language, but creating an entire site with JavaScript is likely to cause issues for several users. Use JavaScript for a specific job, or look to see whether plain HTML would do just fine. By doing so, many users may be able access your website easier and faster.</p>
+            </section>
+            
+            <figure class="imageLeft">
+                <img src="img/javascript.jpg" alt="image of a person working a computer problem" />
+                <figcaption>image source: <a href="https://unsplash.com/collections/440331/tech-work?photo=gcsNOsPEXfs">Photo by William Iven on Unsplash</a></figcaption>
+            </figure>
+            
+        </div>
+
+        <hr>
+
+        <div class="textContainer">
+            <section>
+                <h2>Step 2. Double up on events</h2>
+                <p>While JavaScript offers interactivity such as mouse events (mouseover, mouseout), it may be more accessible to create additional events to allow users to use keyboard controls (such as using blur or focus)</p>
+            </section>
+        </div>
+
+        <hr>
+
+        <div class="textContainer">
+            <section>
+                <h2>Issues with JavaScript</h2>
+                <p>While it’s impossible to see every possible problem that may occur with JavaScript and accessibility, you’re likely going to improve usability drastically if navigation can be accessed with a keyboard or other assistive technology, if content is accessible, and users have control over specific changes.</p>
+            </section>
+        </div>
+
+        <section>
+            <h2>References</h2>
+            <p>The links below were used for the paraphrased content of this website:</p>
+            <a href="https://developer.mozilla.org/en-US/docs/Learn/Accessibility/CSS_and_JavaScript">Mozilla Developer Network: CSS and JavaScript accessibility</a>
+            <br />
+            <a href="http://webaim.org/techniques/javascript/#accessibility">Web AIM: Accessible JavaScript</a>   
+        </section>
+
     </main>
-    
+
     <footer>
-        <p class="footer-info">Chelsea Birchall &copy; 2017. <br />
-        CSU Monterey Bay CST 352 Web Scripting.
-        </p>
+        <p class="footer-info">Chelsea Birchall &copy; 2017.<br /> CSU Monterey Bay CST 352 Web Scripting.</p>
     </footer>
+
 </body>
 
 </html>

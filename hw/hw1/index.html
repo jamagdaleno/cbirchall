@@ -1,43 +1,83 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8" />
     <title>Web Accessibility</title>
     <link href="css/styles.css" rel="stylesheet" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Yantramanav:300,400,700" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Yantramanav:300,400,700" rel="stylesheet">
 </head>
 
 <body>
+
+    <!-- header for logo -->
+    <header>
+        <h1>Web Accessibility</h1>
+    </header>
+
+    <!-- menu -->
     <nav>
         <a href="index.html" class="active">Home</a>
         <a href="html-accessibility.html">HTML</a>
         <a href="css-accessibility.html">CSS</a>
         <a href="js-accessibility.html">JavaScript</a>
     </nav>
+
     <main>
-        <header>
-            <h1>Web Accessibility</h1>
-            <p><em>A user's guide to achieving easy web accessibility.</em></p>
-        </header>
+        <!-- overview description -->
+        <section class="pageOverview">
+            <h2>What is Accessibility?</h2>
+            <p>It's great to create a dynamic and interesting website, but it is also important to make sure your website is user-friendly. Web accessibility allows as many people as possible to access the content of your website. Generally, disabilities usually
+                come to mind when a developer thinks of accessibility, but it can also mean those who have to deal with a slow internet connection, or those using a mobile device.</p>
+            <p>Quote about accessibility:</p>
+            <blockquote>Another important area of professionalism is accessibility awareness. Everyone should be accommodated, especially when around 20 per cent of the population have special requirements. In fact, Microsoft said recently that nearly 50 per cent of people need to make some sort of adjustment to their system to interact with it. Having turned 50, I’m very aware of receiving email with very small fonts – people don’t want to use their spectacles to look at a Web page! by British Computer Society</blockquote>
+        </section>
+
+        <!-- section content -->
         
-        <aside>
-            <img src="img/web-accessibility-icons.png" alt="image of four web accessibility icons">
-            <figcaption>image source: <a href="http://blog.amdeellc.com/my-journey-into-web-accessibility" target="_blank">amdee blog</a></figcaption>
-        </aside>
+        <div class="textContainer">
+            <section id="benefits">
+                <h2>What are the benefits of accessibility?</h2>
+                <p>When we create a website with accessibility in mind, we should take special care to make sure those who may not be able to see, hear, or move are able to read your content off of your site.</p>
+            </section>
+            
+            <figure class="imageLeft">
+                <img src="img/access-home.png" alt="image of a person's hands typing on a computer" />
+                <figcaption>image source: <a href="https://unsplash.com/search/photos/computer?photo=_UeY8aTI6d0">Unsplash, Sergey Zolkin</a></figcaption>
+            </figure>
+        </div>
+
+        <section>
+            <h2>What to keep in mind:</h2>
+            <ul>
+                <li><span class="bold-green">Visual:</span> Those with visual impairments may use screen magnifiers or screen readers to read your site's content</li>
+                <li><span class="bold-green">Hearing:</span> Closed captioning is crucial for deaf people to be able to access any multimedia content through your site. </li>
+                <li><span class="bold-green">Mobility:</span> To help those who may not be able to move around on the computer as well, adding special features for key accessibility can help (such as being able to use the 'TAB' key to move around on a form).</li>
+            </ul>
+        </section>
         
         <section>
-            <h2><span class="general-overview">General Overview</span><br /><span class="overview-question">what do you mean, web accessibility?</span></h2>
-            <p class="content-copy">Est voluptatem inventore voluptatem qui et non. Reprehenderit architecto dicta minima id cumque tempora. Unde molestiae adipisci voluptas rerum sit cupiditate vel qui.</p>
-            <p class="content-copy">Officia est in molestias maiores ea. Aliquid quia dolor repellat accusamus. Vel laudantium rerum quasi. Est et et iure nam vel similique voluptatibus voluptates.</p>
+            <h2>Other benefits:</h2>
+            <ul>
+                <li><span class="bold-green">Better SEO:</span> Using semantic tags and a correct structure for your website will make your website more marketable and easier to understand.</li>
+                <li><span class="bold-green">It makes you look good:</span> By caring about the usability of your users, it shows you in a positive light. Good for business, right?</li>
+                <li><span class="bold-green">It's also the law!</span></li>
+            </ul> 
         </section>
+        
+        <section>
+            <h2>References</h2>
+            <p>The links below were used for the paraphrased content of this website:</p>
+            <a href="https://developer.mozilla.org/en-US/docs/Learn/Accessibility/What_is_accessibility">Mozilla Developer Network: What is accessibility?</a>
+        </section>
+
     </main>
-    
+
+    <!-- footer -->
     <footer>
-        <p class="footer-info">Chelsea Birchall &copy; 2017. <br />
-        CSU Monterey Bay CST 352 Web Scripting.
-        </p>
+        <p class="footer-info">Chelsea Birchall &copy; 2017.<br /> CSU Monterey Bay CST 352 Web Scripting.</p>
     </footer>
+
 </body>
 
 </html>

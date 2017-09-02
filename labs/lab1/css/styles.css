@@ -3,6 +3,10 @@ body {
     color: gray;
 }
 
+header, main, nav, footer {
+    text-align: center;
+}
+
 h1 {
     font-family: 'Pacifico', cursive;
     font-size: 4em;
@@ -10,8 +14,8 @@ h1 {
     margin-bottom: 0px;
 }
 
-header, main, nav, footer {
-    text-align: center;
+nav {
+    box-shadow: 10px 10px 5px grey;
 }
 
 nav a { /* links within nav container */
@@ -28,7 +32,7 @@ nav a:hover {
     transition: .9s;
 }
 
-a.active{
+.active { /* used to make current page link BOLD */
     font-weight: bold;
     color: orange;
     border-bottom: 1px solid orange;
@@ -39,6 +43,11 @@ a.active{
     text-align: left;
 }
 
+footer {
+    clear: left;
+    font-size: .8em;
+}
+
 #welcomeText {
     padding: 20px 50px 20px 0px;
 }
@@ -47,10 +56,6 @@ a.active{
     border-radius: 20px;
 }
 
-footer {
-    clear: left;
-    font-size: .8em;
-}
 
 /* ABOUT PAGE */
 
@@ -77,14 +82,14 @@ table-header {
 
 ul {
     text-align: left;
-  /*  padding-left: 200px; Decided to center using div id #content styles */
+    padding-left: 200px; /*Decided to center using div id #content styles */
 }
 
 .hobby {
     color: yellow;
 }
 
-/* CONTACT PAGE */
+/* CONTACT PAGE  */
 
 #content {
     margin: 0 auto;

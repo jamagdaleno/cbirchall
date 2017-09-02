@@ -1,44 +1,85 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8" />
-    <title>Web Accessibility HTML</title>
+    <title>Web Accessibility</title>
     <link href="css/styles.css" rel="stylesheet" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Yantramanav:300,400,700" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Yantramanav:300,400,700" rel="stylesheet">
 </head>
 
 <body>
+
+    <header>
+        <h1>Web Accessibility</h1>
+    </header>
+
     <nav>
         <a href="index.html">Home</a>
         <a href="html-accessibility.html" class="active">HTML</a>
         <a href="css-accessibility.html">CSS</a>
         <a href="js-accessibility.html">JavaScript</a>
     </nav>
-    
+
     <main>
-        <header>
-            <h1>HTML for Accessibility</h1>
-            <p><em>How to use HTML effectively for web accessibility</em></p>
-        </header>
-        
-        <aside>
-            <img src="img/web-accessibility-icons.png" alt="image of four web accessibility icons">
-            <figcaption>image source: <a href="http://blog.amdeellc.com/my-journey-into-web-accessibility" target="_blank">amdee blog</a></figcaption>
-        </aside>
-        
-        <section>
-            <h2><span class="general-overview">General Overview</span><br /><span class="overview-question">what do you mean, web accessibility?</span></h2>
-            <p class="content-copy">Est voluptatem inventore voluptatem qui et non. Reprehenderit architecto dicta minima id cumque tempora. Unde molestiae adipisci voluptas rerum sit cupiditate vel qui.</p>
-            <p class="content-copy">Officia est in molestias maiores ea. Aliquid quia dolor repellat accusamus. Vel laudantium rerum quasi. Est et et iure nam vel similique voluptatibus voluptates.</p>
+        <section class="pageOverview">
+            <h2>HTML for accessibility</h2>
+            <p>There are several easy ways to add usability and accessibility to your webpages using just HTML. Read below for several great tips.</p>
         </section>
+
+        <div class="textContainer">
+            <section class="stepsContent">
+                <h2>Step 1. Use the right HTML element</h2>
+                <p>This may seem obvious, but it can be all too easy to apply a general tag when there are several semantic tags that can do the job better. For example, one could use a
+                    tags for a button, but using the semantic tag
+                        button is much more descriptive. But why does it matter?</p>
+                <p>One word: <strong>Screen readers!</strong> A descriptive tag is much more useful for those to determine what piece of content they are dealing with. Other reasons?</p>
+                <ul>
+                    <li>Descriptive for screen readers</li>
+                    <li>Easier to understand</li>
+                    <li>Better for SEO.</li>
+                </ul>
+            </section>
+            
+            <figure class="imageLeft">
+                <img src="img/html.jpg" alt="image of HTML code" />
+                <figcaption><a href="https://unsplash.com/search/photos/coding?photo=OqtafYT5kTw">Photo by Ilya Pavlov on Unsplash</a></figcaption>
+            </figure>
+            
+        </div>
+
+        <hr>
+
+        <div class="textContainer">
+            <section>
+                <h2>Step 2. Your language should be clear</h2>
+                <p>For screenreaders, it may be difficult to understand the content if the website's content is not laid out in a clear, precise manner. <strong>Some general tips include:</strong> no abbreviations if possible (write out "February" instead
+                    of "Feb"), avoiding dashes ("10 to 12" instead of "10-12"), and writing acronyms out. By using these tips, you'll be able to provide easy-to-read content for everyone accessing your website.</p>
+            </section>
+        </div>
+
+        <hr>
+        <div class="textContainer">
+            <section>
+                <h2>Step 3. Apply a modern website structure</h2>
+                <p>Back in the 'old days' days of web development, many would apply table layouts for their design. While it may have made sense back then, nowadays such a layout will bloat your code, your design will be inflexible, and most importantly,
+                    will create a real headache for screenreaders to understand your content.</p>
+                <p>Instead, you're much better off applying <strong>modern HTML5 semantic tags</strong> to designate your content throughout (think headers, footers, nav, sections).</p>
+            </section>
+        </div>
+
+        <section>
+            <h2>References</h2>
+            <p>The links below were used for the paraphrased content of this website:</p>
+            <a href="https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML">Mozilla Developer Network: A good basis for HTML accessibility</a>
+        </section>
+
     </main>
-    
+
     <footer>
-        <p class="footer-info">Chelsea Birchall &copy; 2017. <br />
-        CSU Monterey Bay CST 352 Web Scripting.
-        </p>
+        <p class="footer-info">Chelsea Birchall &copy; 2017.<br /> CSU Monterey Bay CST 352 Web Scripting.</p>
     </footer>
+
 </body>
 
 </html>

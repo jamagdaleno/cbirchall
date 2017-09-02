@@ -1,0 +1,58 @@
+body {
+    background-color: black;
+    font-family: 'Pacifico', cursive;
+    margin: 0 auto;
+    text-align: center;
+    color: yellow;
+}
+
+img{
+    display: block;
+    width:300px;
+    height: 300px;
+}
+
+img:hover {
+    width:400px;
+    height:400px;
+    transition:.9s;
+}
+
+#season1{
+    display: inline-block;
+    position: relative
+}
+
+#season2{
+    display: inline-block;
+    position: relative;
+}
+#season3{
+    display: inline-block;
+    position: relative
+}
+#season4{
+    display: inline-block;
+    position: relative;
+}
+
+#season1 img {
+    border-top-left-radius: 2em;
+}
+
+#season2 img {
+    border-top-right-radius: 2em;
+}
+
+#season3 img {
+    border-bottom-left-radius: 2em;
+}
+
+#season4 img {
+    border-bottom-right-radius: 2em;
+}
+
+.seasonName {
+    color: #ffffff;
+    font-size: 1.5em;
+}
