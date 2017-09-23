@@ -1,0 +1,27 @@
+body {
+    display: block;
+}
+
+#wrapper {
+    width: 950px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+    margin: 0px 10px;
+}
+
+.hand {
+    font-size: 1.5em;
+    padding: 20px 0px;
+}
+
+.ace {
+    border: yellow 2px solid;
+}
+
+#winner {
+    font-size: 2em;
+}
