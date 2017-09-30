@@ -1,0 +1,53 @@
+    body {
+        opacity: 0.9;
+        width: 100%;
+        text-align: center;
+    }
+    
+    h1 {
+        color: #fff;
+    }
+    
+    .row.header {
+        color: #fff;
+    }
+
+    input {
+        font-size: 3em;
+        color: black;
+        margin-bottom: 20px;
+    }
+    
+    select {
+        width: 200px;
+        font-weight: bold;
+        margin: 15px 0px;
+    }
+
+    #carousel-example-generic {
+        margin: 0 auto;
+        width: 700px;
+    }
+    
+    .row {
+        margin: 50px 0px;
+    }
+    
+    #layoutStyle {
+        width: 40%;
+        margin: auto;
+        background-color: #dddddd;
+        padding: 20px 0px;
+        border-radius: 10px;
+    }
+    
+    #errorMsg {
+        padding: 10px 0px;
+        background-color: #dddddd;
+        border-radius: 10px;
+    }
+    
+    .carousel-inner>.item>a>img, .carousel-inner>.item>img {
+        margin: auto;
+    }
+    
