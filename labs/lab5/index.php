@@ -1,6 +1,6 @@
 <?php
 
-    include '../../../dbConnection.php';
+    include '../../dbConnection.php';
     $dbConn = getDatabaseConnection();
 
     /*
@@ -36,7 +36,9 @@
         
         //echo($records[$randomIndex]['quoteId']);
         
+        
         $quoteId = $records[$randomIndex]['quoteId'];
+        
      
      
         // step 2. retrieving quote based on Random Quote Id
@@ -50,8 +52,8 @@
         $stmt -> execute ();
         $record = $stmt -> fetch(); // using "fetch()" bc it's expected to get ONLY ONE record
         
-        echo "<em>" . $record['quote'] . "</em><br/>";
-        echo "<a target='authorInfo' href='getAuthorInfo.php?authorId=" . $record['authorId'] . "' >-" . $record['firstName'] . " " . $record['lastName'] . "</a>";
+        echo "<div id='quote'><em>" . $record['quote'] . "</em></div><br/>";
+        echo "<div id='author'><a target='authorInfo' href='getAuthorInfo.php?authorId=" . $record['authorId'] . "' >- " . $record['firstName'] . " " . $record['lastName'] . "</a></div>";
         
         
         
@@ -65,13 +67,27 @@
 <html>
     <head>
         <title> Lab 5: Random Quote Generator </title>
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Biryani:700|Kalam:300" rel="stylesheet">
     </head>
     <body>
 
+    <div class="container">
+        
+        <div id="quoteTitle">
+            <h1>Famous Quotes</h1>
+        </div>
+        
         <?=getRandomQuote()?>
         
         <br />
-        <iframe name="authorInfo" width="500" height="300"></iframe>
+        <hr>
+    
+    
+        
+        <iframe name="authorInfo"></iframe>
+
+    </div>
 
     </body>
 </html>

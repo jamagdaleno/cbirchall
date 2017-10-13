@@ -1,0 +1,58 @@
+body {
+    font-family: 'Biryani', sans-serif;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+#quote {
+    font-size: 36px;
+    font-family: 'Kalam', cursive;
+    color: #00025e;
+    padding-top: 50px;
+    
+}
+
+#author {
+    font-family: 'Biryani', sans-serif;
+    font-size: 28px;
+    /*font-weight: bold;*/
+}
+
+#author a {
+    text-decoration: none;
+}
+
+iframe {
+    width: 100%;
+    height: 500px;
+    border: none;
+    
+}
+
+.iframeStyle {
+    font-weight: 200;
+}
+
+.iframeBio {
+    clear: left;
+    line-height: 2;
+    font-weight: 200;
+    font-size: 20px;
+   /*font-family: 'Biryani', sans-serif;*/
+}
+
+img {
+    float: left;
+    width: 25%;
+    padding: 0px 20px 20px 0px;
+}
+
+#quoteTitle {
+    text-align: center;
+    background-color: #00025e;
+    color: #fff;
+    border-radius: 20px;
+}
