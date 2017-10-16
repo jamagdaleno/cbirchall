@@ -1,0 +1,75 @@
+body {
+    background-image: url("../img/theater.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+.container {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    background-color: #d1d1d1;
+    border-radius: 10px;
+    opacity: 0.9;
+}
+
+.row {
+    padding: 20px 0px;
+}
+
+.row.title {
+    padding-bottom: 10px;
+}
+
+.row.title .col h1 {
+    font-weight: bold;
+    color: #d32433;
+}
+
+.col.movieDecade {
+    color: #d32433;
+}
+
+.row.refreshBtn {
+    padding: 0px 0px 10px 0px;
+}
+
+.col.displayRandomMovie img {
+    margin: 0px 10px 10px 0px;
+    box-shadow: 5px 5px 9px #333333
+}
+
+.row.award img {
+    border: 5px solid #d32433;
+}
+
+.row.award {
+    padding: 10px 0px;
+}
+
+.btn.btn-default {
+    background-color: #d32433;
+    color: #fff;
+    font-weight: bold;
+}
+
+.btn.btn-default:hover {
+    background-color: #232323;
+    transition: .3s;
+}
+
+footer {
+    padding: 20px 0px;
+    text-align: center;
+    background-color: #d1d1d1;
+}
+
+footer p {
+    margin: 0;
+}
+
+#footerName {
+    font-weight: bold;
+    color: #d32433;
+}
